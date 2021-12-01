@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+<head>
+    <style>
+        *{box-sizing: border-box;
+        }
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        html,
+        body{
+            margin:0;
+            padding: 0;
+            font-family: "inter", sans-serif;
+            background-color: (241, 241, 241);
+        }
+        .container{
+            max-width: 90%;
+            padding: 0.625rem;
+            margin: 0 auto;
+        }
+        .title{
+            padding: 1rem;
+            min-width: 100%;
+            margin: 2rem auto;
+            box-shadow: 0.2px 3px rgba(0, 0, 0, 0, 0.7)
+        }
+        .title h1{
+            font-weight: normal;
+        }
+        .text-center{
+            text-align: center;
+            font-family: audiowide;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;  
+        }
+        .img-box{
+            padding: 0 5px 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 class="text-center">Flexbox Image Gallery</h1>
+            </div>
+            
+
+    <div class="row">
+        <div class="img-box">
+            <img src="mekar.jpg"width="420" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="flower.jpg"width="420" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="colorflower.jpg"width="420"height="235" alt="" srcset="">
+        </div>
+    </div>
+    <!-- row 1 end -->
+
+    <div class="row">
+        <div class="img-box">
+            <img src="mawarr.jpg"width="250" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="tulip.jpg"width="250" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="lotus.jpg"width="250" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="teratai.jpg"width="250" alt="" srcset="">
+        </div>
+        <div class="img-box">
+            <img src="pink.jpg"width="250" alt="" srcset="">
+        </div>
+    </div>
+</div>
+</body>
+
+
+</html>

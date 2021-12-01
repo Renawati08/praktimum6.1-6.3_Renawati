@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        .containerA{
+            display: flex;
+            font-family: cursive; 
+            font-size: 20px;
+        }
+        .containerB{
+            display: flex;
+            flex-wrap: wrap;
+            font-family: cursive;
+        }
+        .main{
+            display: flex;
+            height: 400px;
+            
+        }
+        header, footer{
+            background-color: rgb(247, 218, 139);
+            width: 1000px;
+            height: 100px;
+            padding: 1.5em;
+        }
+        nav{
+            background-color: rgb(243, 165, 191);
+            height: 600px;
+            width: 450px;
+            padding: 1em;
+        }
+        article{
+            background-color:rgb(246, 249, 250);
+            width: 750px;
+            padding: 1em;
+        }
+        aside{
+            background-color: rgb(119, 234, 252);
+            width: 250px;
+            padding: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="containerA">
+        <nav>Nav</nav>
+    <div class="containerB">
+    <header>Header</header>
+    <div class="main">
+        <article>Article</article>
+        <aside>Aside</aside> 
+    </div>   
+</body>
+<footer>Footer</footer>
+</div>
+</html>
